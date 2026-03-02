@@ -81,7 +81,7 @@
 };
 /delete-node/ &i2c0;
 /delete-node/ &spi1;
-/ddelete-node/ &uart0;
+/delete-node/ &uart0;
 &physical_layout_gy79 {
     kscan = <&kscan0>;
 };
