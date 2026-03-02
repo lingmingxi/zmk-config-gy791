@@ -1,0 +1,20 @@
+if SHIELD_GY79
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "gy79"
+
+endif
+
+# ---------------------
+# Kconfig for shield "gy79" with board "nice_nano_v2"
+# ---------------------
+if BOARD_NICE_NANO_V2 && SHIELD_GY79
+
+config SPI
+    default y
+
+config WS2812_STRIP
+    default y
+
+endif
